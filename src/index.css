@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  overflow-x: hidden;
+}
+
+.menu ul li{
+    padding: 0 30px;
+}
+.menu2 ul li {
+  padding: 10px 0;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+.active, .dots:hover {
+    background-color: #feb000;
+  }
+
+.circle {
+  box-shadow: 2.5px 4.33px 15px #00000026;
+}
+
+.circle1:hover {
+  box-shadow: 2.5px 4.33px 15px #00000026;
+}
+.circle2:hover {
+  background-color: #feb000;
+  color: #fff;
+  transition: .5s;
+}
+.swiper-pagination-bullet {
+  margin-top: 2rem;
+  border-radius: unset;
+  height: 5px;
+  width: 15px;
+}
+.swiper-pagination {
+  position: inherit;
+  margin-top: 2rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: #feb000;
+}
+.active {
+  background-color: #feb000;
+}
+.ul-pricing li {
+  padding: 2px 0;
+}
+.footer {
+  background-image: url(./assets/footerbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 70px;
+}
+.social-icon li {
+  display: inline;
+}
+.insta {
+  width: 43px;
+}
+.pages-links li {
+  padding: 3px 0;
+  cursor: pointer;
+}
+.serivces-text {
+  margin-top: 10px;
+  line-height: 13px;
+}
+.line {
+  
+  height: 290px;
+  position: absolute;
+  top: 115px;
+  
+}
+.services-hero {
+  background-image: url(assets/servicebg.jpg);
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 950px) {
+  .services-hero {
+    background-image: url(assets/servicebg.jpg);
+    width: 100%;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.current-tab {
+  border: 2px solid #feb000 ;
+  border-style: dashed;
+  border-radius: 10px;
+}
+.filer-menu {
+  background-color: #feb000;
+  box-shadow: 2.5px 4.33px 15px #00000026;
+  color: #fff;
+  
+}
+.item {
+  margin-bottom: 20px;
+}
+.search-icone {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.arrow-icone {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+}
+
+.number-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.element::before {
+  content: "";
+  display: block;
+  border: 2.8px solid #feb000; /* adjust the border width, style and color as needed */
+  position: absolute;
+  left: -1px; /* adjust the right value to shift the border as needed */
+  top: 9.8px;
+  height: 30px;
+}
+.li-tags {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.li-tags:hover span {
+  background-color: #feb000 ;
+}
+.currentindextab {
+  background-color: #feb000;
+  color: #fff;
+}
+.postbuttons:hover {
+  background-color: #feb000;
+  color: #fff;
+}
+@media (min-width: 0) and (max-width: 940px) {
+  .respoinsivewidth {
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+@media (min-width: 0) and (max-width: 508px) {
+  .Business {
+   margin-top: 2rem;
+  }
+  .business-text-3 {
+    padding-bottom: 15px;
+  }
+  
+}
+@media (min-width: 509px) and (max-width: 672px) {
+  .BusinesP2 {
+   margin-top: 2rem;
+  }
+  .business-text-3 {
+    padding-bottom: 15px;
+  }
+  
+}
+@media (min-width: 673px) and (max-width: 836px) {
+  .BusinesP3 {
+   margin-top: 2rem;
+  }
+  .business-text-3 {
+    padding-bottom: 15px;
+  }
+  
+}
+@media (min-width: 837px) and (max-width: 1000px) {
+  .BusinesP4 {
+   margin-top: 2rem;
+  }
+  .business-text-3 {
+    padding-bottom: 15px;
+  }
+  
+  
+}
+
+
+.menu2 {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity: 0.9;
+    transform: translate(-100%);
+    padding: 50px 30px;
+    background: rgb(34, 45, 50);
+    overflow: auto;
+    transition: all 0.5s ease 0s;
+}
+.menu3 {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity: 0.9;
+    transform: translate(0);
+    padding: 50px 30px;
+    background: rgb(34, 45, 50);
+    overflow: auto;
+    transition: all 0.5s ease 0s;
+}
+
+@media screen and (max-width: 950px) {
+.homeSlider .swiper-pagination-bullets {
+  margin: 0;
+}
+
+}
+@media (min-width: 0) and (max-width: 1067px) {
+  .pricing-b-three {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 0) and (max-width: 616px) {
+  .pricing-b-two {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar {
+    width: 450px !important;
+  }
+}

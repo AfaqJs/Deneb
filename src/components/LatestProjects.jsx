@@ -27,8 +27,8 @@ const Projects = () => {
   return (
     <section className=' mt-[4rem]'>
         <div className=' text-center'>
-            <h2 className=' smml:text-[45px] text-[32px]  font-semibold '>Our Latest Projects</h2>
-            <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
+            <h2 className=' smml:text-[45px] xs:text-[32px] text-[25px]  font-semibold '>Our Latest Projects</h2>
+            <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
         </div>
 
     </section>

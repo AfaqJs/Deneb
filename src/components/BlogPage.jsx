@@ -32,7 +32,7 @@ const BlogPage = () => {
               <img
                 src={item.image}
                 alt=""
-                className=" rounded-[10px] smml:w-[100%] w-[64%] ss:w-[82%] ssms:w-[98%] sm:w-[100%]"
+                className=" rounded-[10px] smml:w-[100%] xs:w-[64%] xfm:w-[46%] ss:w-[82%] ssms:w-[98%] sm:w-[100%]"
               />
               <div className=" flex items-center mt-[20px]">
                 <div className=" flex text-[14px] text-[#7a808d] items-center mr-[30px]">
@@ -52,10 +52,10 @@ const BlogPage = () => {
                   <p> By Tortoiz</p>
                 </div>
               </div>
-              <h2 className=" text-[30px] font-semibold leading-[60px]">
+              <h2 className=" xs:text-[30px] xfm:text-[22px] font-semibold leading-[60px]">
                 {item.title}
               </h2>
-              <p className=" text-[#7a808d] text-[14px] smml:w-[100%] w-[60%]">{item.description}</p>
+              <p className=" text-[#7a808d] text-[14px] smml:w-[100%] xs:w-[60%] xfm:w-[45%]">{item.description}</p>
               <div className=" mt-[5px] services-btn flex items-center justify-start">
                 <img src={play} alt="" className=" w-[14px]  mr-[8px]" />
                 <h5 className=" fon\t-medium text-[14px]">Read More</h5>
@@ -77,7 +77,7 @@ const BlogPage = () => {
             <input
               type="text"
               placeholder="Search..."
-              className=" circle p-[20px] pl-[45px] smml:w-[19rem] w-[26rem] h-[35px] rounded-[30px] focus:border-none text-[14px] focus:outline-none"
+              className=" circle p-[20px] pl-[45px] smml:w-[19rem] xs:w-[26rem] xfm:min-w-[20rem] h-[35px] rounded-[30px] focus:border-none text-[14px] focus:outline-none"
             />
             <span>
               {" "}
@@ -116,13 +116,13 @@ const BlogPage = () => {
               <div
                 key={item.id}
                 style={{ marginBottom: "20px" }}
-                className=" smml:h-[105px]  h-[137px] rounded-[12px] circle1"
+                className=" smml:h-[105px] xs:w-[100%] xfm:w-[70%] xfm:h-[100px] xs:h-[137px] rounded-[12px] circle1"
               >
                 <div className=" flex items-center ">
                   <img
                     src={item.image}
                     alt=""
-                    className="w-[40%] mt-[8px] ml-[15px] rounded-[8px]"
+                    className="  w-[40%] mt-[8px] ml-[15px] rounded-[8px]"
                   />
                   <div>
                     <h3 className=" text-[16px] px-[10px] mt-[8px]">
@@ -150,7 +150,7 @@ const BlogPage = () => {
           <div className=" relative mt-8 flex items-center">
             <h3 className=" element  pl-4 text-[30px] font-semibold">Tages</h3>
           </div>
-          <div>
+          <div className=" xs:w-[100%] xfm:w-[80%]">
             <ul className="mt-[1rem]">
               <li className=" li-tags border-solid border-[1px] rounded-[30px]">
                 <div className=" text-[#8e8e8f] flex text-[13px] items-center p-[5px] pr-[12px]">

@@ -8,10 +8,12 @@ import Blog from "./components/Blog";
 import FormValidation from "./components/FormValidation";
 import Contact from "./components/Contact";
 import { BrowserRouter as Main, Route, Routes } from "react-router-dom";
+import NOMatch from "./components/NOMatch";
 
 const App = () => {
   return (
     <>
+    <div className=" x-overflow">
       <Main>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -20,9 +22,11 @@ const App = () => {
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="*" element={<NOMatch />} />
           
         </Routes>
       </Main>
+      </div>
     </>
   );
 };

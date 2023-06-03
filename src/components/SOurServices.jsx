@@ -42,7 +42,7 @@ const SOurServices = () => {
           } `}
         >
           <img src={webiconS} alt="" className=" m-auto w-[55%] mt-[25px]" />
-          <h5>Web Solution</h5>
+          <h5 className="">Web Solution</h5>
         </div>
         <div
           onClick={() => setIndex(2, "two")}
@@ -112,17 +112,17 @@ const SOurServices = () => {
            
           <div key={content.image} className=" flex justify-between flex-wrap smml:flex-nowrap items-center ">
             <div className=" xs:w-[500px] ss:w-[650px] sm:w-[900px]  text-[15px] text-[#7a808d] text-justify">
-              <h2 className=" text-[45px] font-semibold text-black text-justify ssms:text-center smml:text-justify">{content.h2}</h2>
+              <h2 className=" xs:text-[45px] xfm:text-[32px] font-semibold text-black text-justify ssms:text-center smml:text-justify">{content.h2}</h2>
               <p className=" mt-[20px] text-justify ssms:text-center smml:text-justify ">{content.p1}</p>
               <p className=" smml:mt-[20px] text-justify ssms:text-center smml:text-justify mt-0 smml:mt-20px">{content.p2}</p>
               <p className=" smml:mt-[20px] text-justify ssms:text-center smml:text-justify mt-0 smml:mt-20px">{content.p3}</p>
             </div>
             <div className=" smml:mt-0 mt-[2.5rem] xs:w-[500px] ss:w-[650px] sm:w-[900px] smml:pl-[4rem] relative">
-              <div className=" absolute lg:w-[70%] w-[95%] ss:w-[80%] px-[15px] sm:w-[60%] sm:left-[210px]  rounded-[10px] left-[35px] ss:left-[90px] smml:w-[80%] smml:h-[250px] smml:left-[105px] top-[-15px] ss:top-[-13px] md:left-[120px] lg:left-[177px] xs:h-[300px] bg-[#feb000] h-[350px] z-0"></div>
+              <div className=" absolute lg:w-[70%] xs:w-[95%] xfm:w-[55%] ss:w-[80%] px-[15px] sm:w-[60%] sm:left-[210px]  rounded-[10px] xs:left-[35px] xfm:left-[155px] ss:left-[90px] smml:w-[80%] smml:h-[250px] smml:left-[105px] xs:top-[-15px] xfm:top-[-6px] ss:top-[-13px] md:left-[120px] lg:left-[177px] xs:h-[300px] xfm:h-[220px] bg-[#feb000] h-[350px] z-0"></div>
               <img
                 src={content.image}
                 alt=""
-                className=" relative   circle rounded-[10px] m-auto"
+                className=" relative circle rounded-[10px] m-auto"
               />
             </div>
           </div>

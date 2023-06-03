@@ -3,7 +3,7 @@ import { footerlayer } from "../assets";
 
 const HireUS = () => {
   return (
-    <section className=" max-w-[1100px] mx-auto mt-[2rem] relative top-[100px] z-50">
+    <section className=" xfm:hidden xs:block max-w-[1100px] mx-auto mt-[2rem] relative top-[100px] z-50">
       <div className=" text-[#fff] flex flex-wrap flex-row border-[1px] border-solid circle rounded-[10px] smml:w-[900px] w-[450px] mx-auto p-[3rem] bg-[#ffc107] items-center ">
         <div className="mr-auto items-center">
           <h3 className=" text-[30px] font-semibold ">

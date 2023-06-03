@@ -15,7 +15,7 @@ const SworkFlow = () => {
     <section className="max-w-[1100px] mx-auto mt-[5rem] smml:px-0 px-[15px]">
       <div className=" text-center">
         <h2 className=" smml:text-[45px] text-[32px] font-semibold ">Our Work Flow</h2>
-        <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
+        <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
       </div>
 
       <div className=" flex flex-wrap smml:flex-nowrap mt-[3rem] items-center justify-center smml:justify-between ">
@@ -39,8 +39,8 @@ const SworkFlow = () => {
       </div>
 
       <div className=" flex flex-wrap smml:flex-nowrap smml:mt-[2rem] mt-[2rem] smml:flex-row  -center justify-center smml:justify-between">
-        <div className=" w-[530px] smml:text-left text-center smml:mt-0 mt-[1.5rem] smml:mx-0 mx-auto">
-        <div className=" w-[530px] smml:hidden block smml:text-right text-center smml:mt-0 mt-[1.5rem]">
+        <div className=" xs:w-[530px] xfm:min-w-[397px] smml:text-left text-center smml:mt-0 mt-[1.5rem] smml:mx-0 mx-auto">
+        <div className=" xs:w-[530px] xfm:min-w-[397px] smml:hidden block smml:text-right text-center smml:mt-0 mt-[1.5rem]">
           <img src={devimage} alt="" className=" smml:w-[95%] w-[85%] smml:ml-auto smml:mx-0 mx-auto" />
         </div>
           <div className=" smml:mt-0 mt-[1.5rem] inline-block bg-white circle w-[80px] h-[80px] rounded-[50%]">

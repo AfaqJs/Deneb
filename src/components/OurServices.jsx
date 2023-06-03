@@ -9,7 +9,7 @@ const Services = () => {
       </h2>
       <p className=" text-center  text-[15px] mt-[7px] font-normal text-[#7a808d]">
         When unknow printer took a gallery of type and scramblted it to{" "}
-        <br className="smml:hidden block" /> makea{" "}
+        <br className="smml:hidden xfm:hidden xs:block block" /> makea{" "}
         <br className="smml:block hidden" /> type specimen book
       </p>
 

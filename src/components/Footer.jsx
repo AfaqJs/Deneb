@@ -24,9 +24,9 @@ const Footer = () => {
           <div className="">
             <img src={logo} alt="" />
             <p className=" mt-[1.5rem] ssms:w-[300px] w-[400px] text-[#7a808d] text-[14px] text-justify">
-              Quisque orci nisl, viverra et sem ac, tincidunt egestas massa.
-              Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec
-              tortor praesent consequat urna.
+              Quisque orci nisl, viverra et sem ac, tincidunt <br className="xs:hidden"/> egestas massa.
+              Morbi est arcu, hendrerit  ac vehicula<br className="xs:hidden"/>  condimentum, euismod nec
+              tortor praesent<br className="xs:hidden"/> consequat urna.
             </p>
             <div className=" flex  mt-[18px] items-center">
               <img src={facebook} alt="" className=" mr-[10px] w-[30px]" />

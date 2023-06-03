@@ -19,11 +19,11 @@ const PLatextProjects = () => {
     <section className="mt-[5rem] max-w-[1100px] mx-auto smml:px-0 px-[15px]">
       <div className=" text-center">
         <h2 className=" smml:text-[45px] text-[32px] font-semibold ">Our Latest Projects</h2>
-        <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
+        <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
       </div>
 
       <div
-        className={`  my-[2rem] text-[13px] font-medium max-w-[600px] mx-auto flex justify-between flex-wrap`}
+        className={`  my-[2rem] text-[13px] font-medium max-w-[600px] mx-auto flex xfm:justify-center xs:justify-between flex-wrap`}
       >
         <button
           className={`${

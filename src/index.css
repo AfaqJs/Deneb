@@ -259,3 +259,48 @@ body {
     width: 450px !important;
   }
 }
+@media (min-width: 0) and (max-width: 616px) {
+  
+}
+@media (max-width: 499px) {
+ .x-overflow {
+    overflow-x: hidden !important;
+    overflow-y: hidden;
+  } 
+  .nav-bar {
+    width: 300px !important ;
+  }
+  .site-logo{
+    width: 80px;
+  }
+  .m-h-s {
+    width: 320px;
+  }
+  .width-o-t {
+    width: 100%;
+  }
+  .h-over-w{
+    font-size: 25px;
+    width: 19rem;
+  }
+  .h-over {
+    width: 20rem;
+    
+  }
+  .achive-irle-w {
+    width: 100px;
+    height: 100px;
+    
+  }
+  .achive-circle-c  {
+    align-items: center;
+  }
+  .contat-f-s {
+    width: 20rem;
+    height: 2.5rem;
+  }
+  .number-icon {
+    right: 148px;
+  }
+  
+}

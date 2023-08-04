@@ -32,7 +32,7 @@ const BlogPage = () => {
               <img
                 src={item.image}
                 alt=""
-                className=" rounded-[10px] smml:w-[100%] xs:w-[64%] xfm:w-[46%] ss:w-[82%] ssms:w-[98%] sm:w-[100%]"
+                className=" rounded-[10px] smml:w-[100%] xs:w-[64%] xfm:w-[46%] m-img-width ss:w-[82%] ssms:w-[98%] sm:w-[100%]"
               />
               <div className=" flex items-center mt-[20px]">
                 <div className=" flex text-[14px] text-[#7a808d] items-center mr-[30px]">
@@ -92,7 +92,7 @@ const BlogPage = () => {
               <img
                 src={rightarrow}
                 alt=""
-                className=" w-[85px] rounded-[25px] cursor-pointer arrow-icone bg-[#feb000] absolute py-[7px] px-[30px]"
+                className=" right-arrow-cus w-[85px] rounded-[25px] cursor-pointer arrow-icone bg-[#feb000] absolute py-[7px] px-[30px]"
               />
             </span>
           </div>

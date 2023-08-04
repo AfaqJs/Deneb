@@ -302,5 +302,38 @@ body {
   .number-icon {
     right: 148px;
   }
-  
+  .nav-menu-w {
+    width: 350px !important;
+  }
+  .m-h-s {
+    width: 390px !important;
+  }
+  .h-all-p {
+    padding-right: 17px;
+    padding-left: 17px;
+  }
+  .m-img-width {
+    width: 57% !important;
+  }
+  .right-arrow-cus {
+    right: 100px;
+  }
+  .color-f-m {
+    background-color: #F1F1F1;
+  }
+}
+@media (max-width: 400px){
+  .nav-menu-w {
+    width: 320px !important;
+  }
+  .m-h-s {
+    width: 350px !important;
+  }
+  .h-all-p {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .m-img-width{
+    width: 46% !important;
+  }
 }

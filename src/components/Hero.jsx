@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <>
     <section className=' relative z-[100]  pt-[2rem]'>
-        <nav  className=' nav-bar smml:px-[2rem] md:px-0 flex items-center flex-wrap smml:w-[942px] lg:w-[1100px]  mx-auto  xs:w-[495px] ss:w-[550px] ssms:w-[610px] sm:w-[700px]  '>
+        <nav  className=' nav-bar smml:px-[2rem] md:px-0 flex items-center flex-wrap smml:w-[942px] lg:w-[1100px]  mx-auto nav-menu-w  xs:w-[495px] ss:w-[550px] ssms:w-[610px] sm:w-[700px]  '>
             <img src={logo} alt=""  className=' site-logo mr-auto smml:w-[12%] w-[24%]sm:w-[11px]'/>
             <div className='menu hidden smml:block '>
               <ul className=' list-none flex  font-poppins text-[13px] font-medium '>

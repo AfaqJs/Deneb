@@ -7,7 +7,7 @@ const Blog = () => {
     <section className=" max-w-[1100px] mt-[3rem] mx-auto">
       <div className=" text-center">
         <h2 className=" smml:text-[45px] xs:text-[32px] text-[25px] font-semibold ">Latest Blog</h2>
-       <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
+       <p className=' pt-[7px] text-[15px] text-[#7a808d] h-all-p'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
       </div>
 
       <div className=" flex justify-between flex-wrap mt-[2.5rem]">

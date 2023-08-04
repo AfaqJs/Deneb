@@ -4,10 +4,10 @@ import { contact, contactbg } from "../assets";
 const ContactUs = () => {
   return (
     <>
-      <div className=" mt-[4rem] relative">
+      <div className="xfm:hidden xs:block mt-[4rem] relative">
         <img src={contactbg} alt="" className=" absolute smml:w-[40%] w-[50%]  " />
       </div>
-      <div className=" max-w-[1100px] mx-auto mt-[6rem]  ">
+      <div className=" max-w-[1100px] mx-auto mt-[6rem] xfm:hidden xs:block ">
         <div className=" flex justify-between items-center flex-wrap ">
             <div className=" smml:w-[48%] w-[80%] z-10 mx-auto">
                 <img src={contact} alt="" className="  w-[100%] h-[100%] " />

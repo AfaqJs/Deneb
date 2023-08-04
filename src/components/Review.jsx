@@ -7,7 +7,7 @@ const Review = () => {
     <>
     <div className=' text-center relative w-[100%] mt-[5rem]'>
             <h2 className=' smml:text-[45px] xs:text-[32px] text-[25px] font-semibold '>What People Say</h2>
-            <p className=' pt-[7px] text-[15px] text-[#7a808d]'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
+            <p className=' pt-[7px] text-[15px] text-[#7a808d] h-all-p'> When unknow printer took a gallery of type  and scramblted <br className='smml:hidden xfm:hidden xs:block z-100'/> it to makea <br className='smml:block hidden'/> type specimen book</p>
 
             <div className=' absolute top-[72px] left-[-20px] z-0'>
               <img src={team1} alt="" />
